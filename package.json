@@ -1,0 +1,20 @@
+{
+  "name": "instant-website",
+  "version": "1.0.0",
+  "description": "Instant website",
+  "author": "Bartosz Kaczorek",
+  "private": true,
+  "dependencies": {
+    "jscpd": "^0.5.1",
+    "log4js": "^0.6.27",
+    "node-static": "^0.7.7",
+    "portfinder": "^0.4.0",
+    "browser-util" : "https://github.com/bartoszkaczorek/browser-util.git"
+  },
+  "scripts": {
+    "start": "node lib/instantWebsite.js --website-dir ./exampleSite --index-path index.html"
+  },
+  "bin": {
+    "instant-website": "./bin/instant-website"
+  }
+}
